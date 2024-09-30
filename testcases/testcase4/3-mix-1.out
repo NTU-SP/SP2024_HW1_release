@@ -1,0 +1,75 @@
+======================================
+ Welcome to CSIE Train Booking System 
+======================================
+Please select the shift you want to book [902001-902005]: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> The seat is booked.
+
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,7
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,6,7
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> Locked.
+
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,6,7
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> Locked.
+
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,6,7
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> You cancel the seat.
+
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,6
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> You cancel the seat.
+
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,4
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: 
+Booking info
+|- Shift ID: 902003
+|- Chose seat(s): 1,3,4
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> Client exit.

@@ -1,0 +1,44 @@
+======================================
+ Welcome to CSIE Train Booking System 
+======================================
+Please select the shift you want to check [902001-902005]: 0 0 2 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Please select the shift you want to check [902001-902005]: 2 2 2 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Please select the shift you want to check [902001-902005]: 0 0 2 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Please select the shift you want to check [902001-902005]: 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+Please select the shift you want to check [902001-902005]: >>> Client exit.

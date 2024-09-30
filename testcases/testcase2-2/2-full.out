@@ -1,0 +1,12 @@
+======================================
+ Welcome to CSIE Train Booking System 
+======================================
+Please select the shift you want to book [902001-902005]: >>> The shift is fully booked.
+Please select the shift you want to book [902001-902005]: >>> The shift is fully booked.
+Please select the shift you want to book [902001-902005]: 
+Booking info
+|- Shift ID: 902001
+|- Chose seat(s): 
+|- Paid: 
+
+Select the seat [1-40] or type "pay" to confirm: >>> Client exit.
