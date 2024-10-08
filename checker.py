@@ -267,7 +267,7 @@ class TelnetClient(telnetlib.Telnet):
                 while True:
                     line = inputs.readline()
                     if not check: # try to sleep if no check output
-                        time.sleep(0.01)
+                        time.sleep(0.05)
                     if not line:
                         break
                     elif line.strip() in [f"90200{i}" for i in range(1, 6)]:
@@ -288,7 +288,7 @@ class TelnetClient(telnetlib.Telnet):
                 while True:
                     line = inputs.readline()
                     if not check:
-                        time.sleep(0.01)
+                        time.sleep(0.05)
                     if not line:
                         break
                     elif line.strip() in [f"90200{i}" for i in range(1, 6)]:
@@ -504,6 +504,7 @@ def testcase1_1(io):
 
         return 0.1
     except Exception as e:
+        r_server.exit()
         red("Testcase 1-1: failed", io)
         return 0
 
@@ -530,6 +531,7 @@ def testcase1_2(io):
         green("Testcase 1-2: passed", io)
         return 0.1
     except Exception as e:
+        w_server.exit()
         red("Testcase 1-2: failed", io)
         return 0
 
@@ -557,6 +559,7 @@ def testcase1_3(io):
         green("Testcase 1-3: passed", io)
         return 0.1
     except Exception as e:
+        w_server.exit()
         red("Testcase 1-3: failed", io)
         return 0
 
@@ -579,6 +582,7 @@ def testcase1_4(io):
         green("Testcase 1-4: passed", io)
         return 0.2
     except Exception as e:
+        w_server.exit()
         red("Testcase 1-4: failed", io)
         return 0
 
@@ -603,6 +607,7 @@ def testcase2_1(io):
         green("Testcase 2-1: passed", io)
         return 0.2
     except Exception as e:
+        r_server.exit()
         red("Testcase 2-1: failed", io)
         return 0
     
